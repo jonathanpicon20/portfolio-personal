@@ -1,0 +1,877 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paul Picon - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Paul Picon</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:richard@example.com" class="contact-link">paulpiconp@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link">+51 941 418 829</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">January 20</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Lima, PERÚ</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://x.com/JonathanPiconP1" class="social-link" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/jonathanpicon/" class="social-link" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/bigpauul" class="social-link" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm currently a Systems Engineering student with over a year of experience developing web applications, primarily focusing on the front-end using Angular. I
+              specialize in building dynamic, accessible, and responsive user interfaces, always prioritizing user experience and system performance.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make
+              sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand
+              companies.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">Professional development of applications for iOS and Android.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">I make high-quality photos of any category at a professional level.</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Jimy Dolores</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Working with Paul has been an excellent experience. His proactive approach, attention to detail, and commitment to quality shine through in every project. He
+                      always delivers clear, well-structured, and technically sound solutions.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Kevin Davila</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Paul is a web developer with a very professional approach. He always delivers clean, functional, and well-thought-out solutions. His ability to understand
+                      requirements and translate them into efficient code makes him a key asset to any team.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily Rodriguez</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Working with Paul has been truly inspiring. He has a tremendous talent for web development and a knack for solving problems quickly and clearly. He's always
+                      willing to help, and his code reflects order, logic, and a passion for what he does.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar />
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Jesus Yañez</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Paul is a committed and meticulous web developer. He stands out for his ability to adapt to new challenges and his technical expertise. He always strives to
+                      optimize every detail and deliver high-quality solutions.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title></h4>
+
+                <time datetime="2021-06-14">30 June, 2025</time>
+
+                <div data-modal-text>
+                  <p></p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - proyects
+        -->
+
+          <section class="proyects">
+            <h3 class="h3 proyects-title">Proyects</h3>
+
+            <ul class="proyects-list has-scrollbar">
+              <li class="proyects-item">
+                <a href="https://checatuimei.renteseg.osiptel.gob.pe/" target="_blank" rel="noopener noreferrer">
+                  <img src="./assets/images/logo-1-color.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="proyects-item">
+                <a href="https://helpful-daifuku-48c3d4.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="./assets/images/logo-2-color.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="proyects-item">
+                <a href="https://bright-flan-743b73.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="./assets/images/logo-3-color.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="proyects-item">
+                <a href="https://blog-cafejp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="./assets/images/logo-4-color.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="proyects-item">
+                <a href="https://festivalmusic-jpaulson.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="./assets/images/logo-5-color.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="proyects-item">
+                <a href="https://calculator-jpaulson.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="./assets/images/logo-6-color.png" alt="client logo" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University national sage Antunez de Mayolo</h4>
+
+                <span>2022 — Present </span>
+
+                <p class="timeline-text">
+                  I'm currently pursuing an engineering degree, focusing on software development, data structures, databases, and modern web technologies. My background combines
+                  solid technical principles with the ability to design efficient and functional solutions.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Unversity SMP - Law Career</h4>
+
+                <span>2015 — 2020</span>
+
+                <p class="timeline-text">
+                  Law graduate with a solid background in legal norms, legal writing, and constitutional analysis. Qualified to interpret and apply the regulatory framework in
+                  various areas, with critical thinking, professional ethics, and a focus on legal conflict resolution.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+                <span>2012 — 2013</span>
+
+                <p class="timeline-text">
+                  Training in visual design, branding, graphic communication, and digital tools. Ability to create creative and functional solutions focused on user experience,
+                  visual identity, and multimedia content. Mastery of software such as Adobe Illustrator, Photoshop, and InDesign.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Developer</h4>
+
+                <span>2024 — Present</span>
+
+                <p class="timeline-text">
+                  I currently work in web application development, participating in all stages of the software lifecycle. I implement solutions using technologies such as Angular,
+                  Node.js, and SQL databases. I also run functional tests, automated tests, and quality validations to ensure stable and efficient products. I work with agile
+                  methodologies, focusing on continuous improvement and delivering value to the end user.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Lawyer</h4>
+
+                <span>2016— 2024</span>
+
+                <p class="timeline-text">
+                  I have extensive experience in the legal sector, working in notary offices, the judiciary, and various government agencies. I have reviewed and drafted legal
+                  documents, performed regulatory analysis, processed registry procedures, and provided support in judicial and administrative proceedings. I have practical
+                  knowledge of civil law, notarial law, and legal procedures in the public sector.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Graphic designer</h4>
+
+                <span>2013 — 2015</span>
+
+                <p class="timeline-text">
+                  Responsible for the development of graphic pieces for advertising campaigns, brand visual identity, and editorial design. I collaborated with creative teams to
+                  create coherent, functional, and engaging visual content for both digital and print media. I am proficient in tools such as Adobe Photoshop, Illustrator, and
+                  InDesign.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic design</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WordPress</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Tesing</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Select category</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://froggydevs.com/" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Title tracking</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://checatuimei.renteseg.osiptel.gob.pe/consultaIMEI.xhtml" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">IMEI query</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="https://helpful-daifuku-48c3d4.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Store Muebles</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications">
+                <a href="https://bright-flan-743b73.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="https://blog-cafejp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Blog Coffe</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web design">
+                <a href="https://festivalmusic-jpaulson.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Rock & EMD Festival</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://fundacion-evans.netlify.app/#" target="_blank" rel="noopener noreferrer">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Web to fundation Evans</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="https://dev.to/jonathanpicon20/css-cheat-sheet-guia-rapida-para-desarrolladores-1pd8" target="_blank" rel="noopener noreferrer">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.jpg" alt="Cheat Sheet CSS" loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Dev.to</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jul 02, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">CSS Cheat Sheet - Fast guide for Developers</h3>
+
+                    <p class="blog-text">
+                      I'm sharing this CSS cheat sheet with essential properties, useful shortcuts, and practical examples for everyday use. Ideal for those just learning or
+                      looking to brush up.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://forum.freecodecamp.org/t/learn-javascript-destructuring-in-5-minutes/753314/1" target="_blank" rel="noopener noreferrer">
+                  <figure class="blog-banner-box"><img src="./assets/images/blog-2.jpg" alt="Learn JavaScript"lazy" /></figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">forum.freecodecamp.org</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Learn JavaScript Destructuring in 5 Minutes</h3>
+
+                    <p class="blog-text">JavaScript destructuring is a quick way to unpack values from arrays or objects into variables.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <!-- Bloque de contacto extra: QR y perfil -->
+          <section class="contact-extra">
+            <div class="profile-card">
+              <img src="./assets/images/my-avatar.png" alt="Paul" class="avatar" />
+              <h3>Paul Picon</h3>
+              <p>Desarrollador de Software | QA Tester</p>
+              <p>Lima, Perú</p>
+              <p><a class="mailto" href="mailto:paulpiconp@gmail.com">📧 paulpiconp@gmail.com</a></p>
+
+              <a href="https://www.linkedin.com/in/jonathanpicon/" target="_blank" rel="noopener noreferrer" class="btn-cv"> 🔗 LinkedIn </a>
+              <a href="./assets/Paúl-CV.pdf" class="btn-cv" download> 📄 Descargar CV </a>
+            </div>
+
+            <div class="qr-contact-card">
+              <h3>¡Escanea y contáctame!</h3>
+              <img src="./assets/images/qr-contacto.png" alt="QR Contacto" class="qr-img" />
+              <p>Escanea este código QR para escribirme directamente por WhatsApp o revisar mi perfil profesional.</p>
+              <a href="https://wa.me/51941418829" target="_blank" class="btn-qr">📱 Ir a WhatsApp</a>
+            </div>
+          </section>
+
+          <!-- Mapa embebido -->
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+
+          <!-- Formulario de contacto -->
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
